@@ -1,11 +1,9 @@
-import Header from '../../component/Layout/Header/Header'
-import { Footer } from '../../component/Layout/Footer/Footer'
+
 import './Contact.css'
 
 const ContactPage = () => {
     return (
         <>
-            <Header />
 
             <section className="contact">
         <div className="contact-top">
@@ -85,7 +83,6 @@ const ContactPage = () => {
             </div>
         </div>
     </section>
-            <Footer />
         </>
     )
 }

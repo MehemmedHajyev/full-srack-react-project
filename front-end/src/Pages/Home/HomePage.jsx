@@ -1,5 +1,3 @@
-import Header from '../../component/Layout/Header/Header'
-import { Footer } from '../../component/Layout/Footer/Footer'
 import Slider from '../../component/Slider/Slider'
 import Catagories from '../../component/Catagories/Caragories'
 import Products from '../../component/Products/Products'
@@ -11,7 +9,6 @@ import CompaingSingle from '../../component/Companiyya/CompaingSingle'
 const HomePage = () => {
     return (
         <>
-            <Header />
             <Slider />
             <Catagories />
             <Campaigns />
@@ -19,7 +16,6 @@ const HomePage = () => {
             <HomeinBLogs />
             <Brands />
             <CompaingSingle />
-            <Footer />
         </>
     )
 }
