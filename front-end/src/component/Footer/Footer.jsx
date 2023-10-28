@@ -1,9 +1,12 @@
-import Policy from '../../Policy/Policy'
+import Policy from '../Policy/Policy'
 import './footer.css'
 
 export const Footer = () => {
+
     return (
-        <> <Policy />
+        <>
+
+            <Policy />
             <footer className="footer">
                 <div className="subscribe-row">
                     <div className="container">

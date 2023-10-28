@@ -1,5 +1,6 @@
 import './Gallery.css'
 const Gallery = () => {
+ 
     return (
         <div className="product-gallery">
             <div className="single-image-wrapper">
@@ -27,7 +28,12 @@ const Gallery = () => {
                     </button>
                 </div>
             </div>
-        </div>)
+
+
+
+        </div>
+
+    )
 }
 
 export default Gallery
