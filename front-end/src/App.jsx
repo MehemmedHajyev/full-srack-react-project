@@ -1,4 +1,4 @@
-// import HomePage from './Pages/Home/HomePage'
+import HomePage from './Pages/Home/HomePage'
 // import ShoopPage from './Pages/Shop/ShopPage'
 // import BlogPage from './Pages/Blog/BlogPage'
 // import ContactPage from './Pages/Contact/ContactPage'
@@ -6,7 +6,7 @@
 // import BlogDetailsPage from './Pages/BlogDetails/BlogDetailsPage'
 // import ProductDetailsPage from './Pages/ProductDetailsPage/ProductDetailsPage'
 // import MainLayout from './component/Layouts/Layout'
-import CardPage from './Pages/Cart/CartPage'
+// import CardPage from './Pages/Cart/CartPage'
 
 function App() {
 
@@ -14,10 +14,10 @@ function App() {
     <>
     {/* <MainLayout> */}
     {/* <ProductDetailsPage /> */}
-      {/* <HomePage /> */}
+      <HomePage />
 
     {/* </MainLayout> */}
-      <CardPage />
+      {/* <CardPage /> */}
       {/* <ShoopPage /> */}
       {/* <BlogPage /> */}
       {/* <ContactPage /> */}
