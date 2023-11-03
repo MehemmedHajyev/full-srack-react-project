@@ -4,7 +4,7 @@ import HomePage from './Pages/Home/HomePage'
 // import ContactPage from './Pages/Contact/ContactPage'
 // import AuthPage from './Pages/Auth/AuthPage'
 // import BlogDetailsPage from './Pages/BlogDetails/BlogDetailsPage'
-// import ProductDetailsPage from './Pages/ProductDetailsPage/ProductDetailsPage'
+import ProductDetailsPage from './Pages/ProductDetailsPage/ProductDetailsPage'
 // import MainLayout from './component/Layouts/Layout'
 // import CardPage from './Pages/Cart/CartPage'
 
@@ -12,9 +12,9 @@ function App() {
 
   return (
     <>
-    {/* <MainLayout> */}
+    {/* <MainLayout /> */}
     {/* <ProductDetailsPage /> */}
-      <HomePage />
+      {/* <HomePage /> */}
 
     {/* </MainLayout> */}
       {/* <CardPage /> */}
@@ -22,7 +22,7 @@ function App() {
       {/* <BlogPage /> */}
       {/* <ContactPage /> */}
       {/* <AuthPage /> */}
-      {/* <BlogDetailsPage /> */}
+      <ProductDetailsPage />
     </>
   )
 }
