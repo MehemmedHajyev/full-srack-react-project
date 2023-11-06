@@ -18,7 +18,6 @@ NextArrow.propTypes = {
     onClick: PropType.func
 }
 
-
 function PreArrow({ onClick }) {
     return (
         <button className="glide__arrow glide__arrow--left" onClick={onClick}>
@@ -34,6 +33,9 @@ PreArrow.propTypes = {
 
 const Products = () => {
     const [product] = useState(productData);
+
+
+
 
     const sliderSetting = {
         dots: false,
@@ -74,7 +76,7 @@ const Products = () => {
 
                         <Slider {...sliderSetting}>
                             {product.map((product) => (
-                                <ProductItem product={product} key={product.id} />
+                                <ProductItem productItem={product} key={product.id} />
                             ))}
                         </Slider>
 

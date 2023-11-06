@@ -1,7 +1,10 @@
 import './header.css'
 import PropTypes from 'prop-types'
+import { useContext } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { CartContext } from '../../context/CardProvider'
 const Header = ({ setIsSearchShow }) => {
+  const { cartItem } = useContext(CartContext)
 
 
   const { pathname } = useLocation()
@@ -194,7 +197,9 @@ const Header = ({ setIsSearchShow }) => {
                   <div className="header-cart">
                     <Link to={'/cart'} className="header-cart-link">
                       <i className="bi bi-bag"></i>
-                      <span className="header-cart-count">0</span>
+                      <span className="header-cart-count">
+                        {cartItem.length}
+                      </span>
                     </Link>
 
                   </div>

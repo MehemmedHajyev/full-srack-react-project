@@ -21,14 +21,6 @@ function App() {
       <Route path='/auth' element={< AuthPage />} />
       <Route path='/product/:id' element={< ProductDetailsPage />} />
       <Route path='/blog/:id' element={< BlogDetailsPage />} />
-
-
-
-
-
-
-
-
     </Routes>
 
   )
