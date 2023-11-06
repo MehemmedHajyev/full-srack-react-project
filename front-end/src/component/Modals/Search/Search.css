@@ -14,23 +14,23 @@
 }
 
 .modal-search.show {
-    overflow: hidden;
+    /* overflow: hidden; */
     visibility: visible;
     opacity: 1;
-    z-index: 999;
+    /* z-index: 999; */
 }
 
-.modal-overlay {
+/* .modal-overlay {
     content: "";
     width: 100%;
-    height: 100%;
+    height:100% ;
     background-color: black;
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     opacity: 0.5;
 
-}
+} */
 
 .modal-wrapper {
     max-width: 800px;
@@ -39,6 +39,8 @@
     position: fixed;
     z-index: 10;
     padding: 30px;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .modal-search .modal-title {
@@ -160,7 +162,7 @@
 
 @media (max-width: 992px) {
     .modal-search .modal-wrapper {
-        max-width: 370px;
+        max-width: 470px;
     }
 
     .modal-search .results {

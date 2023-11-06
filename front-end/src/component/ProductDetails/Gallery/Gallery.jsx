@@ -41,7 +41,7 @@ const Gallery = () => {
     }
 
 
-    const [product] = useState(productData);
+    // const [product] = useState(productData);
 
     const sliderSetting = {
         dots: false,
@@ -52,7 +52,7 @@ const Gallery = () => {
         nextArrow: <NextArrow />,
         prevArrow: <PreArrow />,
         autoplaySpeed: 3000,
-        autoplay: true,
+        // autoplay: true,
         responsive: [
             {
                 breakpoint: 992,

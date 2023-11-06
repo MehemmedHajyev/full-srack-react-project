@@ -23,7 +23,7 @@ const ProductDetails = () => {
 
                 </div>
             </div>
-        </section>)
+        </section>)                                             
 }
 
 export default ProductDetails

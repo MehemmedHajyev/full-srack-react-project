@@ -1,29 +1,36 @@
+import { Route, Routes } from 'react-router-dom'
 import HomePage from './Pages/Home/HomePage'
-// import ShoopPage from './Pages/Shop/ShopPage'
-// import BlogPage from './Pages/Blog/BlogPage'
-// import ContactPage from './Pages/Contact/ContactPage'
-// import AuthPage from './Pages/Auth/AuthPage'
-// import BlogDetailsPage from './Pages/BlogDetails/BlogDetailsPage'
+import ShoopPage from './Pages/Shop/ShopPage'
+import BlogPage from './Pages/Blog/BlogPage'
+import ContactPage from './Pages/Contact/ContactPage'
+import CardPage from './Pages/Cart/CartPage'
+import AuthPage from './Pages/Auth/AuthPage'
 import ProductDetailsPage from './Pages/ProductDetailsPage/ProductDetailsPage'
-// import MainLayout from './component/Layouts/Layout'
-// import CardPage from './Pages/Cart/CartPage'
+import BlogDetailsPage from './Pages/BlogDetails/BlogDetailsPage'
 
 function App() {
 
   return (
-    <>
-    {/* <MainLayout /> */}
-    {/* <ProductDetailsPage /> */}
-      {/* <HomePage /> */}
 
-    {/* </MainLayout> */}
-      {/* <CardPage /> */}
-      {/* <ShoopPage /> */}
-      {/* <BlogPage /> */}
-      {/* <ContactPage /> */}
-      {/* <AuthPage /> */}
-      <ProductDetailsPage />
-    </>
+    <Routes >
+      <Route path='/' element={<HomePage />} />
+      <Route path='/shop' element={< ShoopPage />} />
+      <Route path='/blog' element={< BlogPage />} />
+      <Route path='/contact' element={< ContactPage />} />
+      <Route path='/cart' element={< CardPage />} />
+      <Route path='/auth' element={< AuthPage />} />
+      <Route path='/product/:id' element={< ProductDetailsPage />} />
+      <Route path='/blog/:id' element={< BlogDetailsPage />} />
+
+
+
+
+
+
+
+
+    </Routes>
+
   )
 }
 
