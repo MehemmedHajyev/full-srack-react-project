@@ -37,9 +37,10 @@ const CartTotal = () => {
                         <td>
                             <ul>
                                 <li>
-                                    <label>
+                                    <label  className="fast-cargo">
                                         Fast Cargo: $15.00
                                         <input type="checkbox" id="fast-cargo"
+                                       
                                             checked={fastCargoCheckt}
                                             onChange={() => setFastCargoCheckt(!fastCargoCheckt)}
                                         />
