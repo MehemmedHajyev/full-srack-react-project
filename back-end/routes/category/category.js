@@ -2,10 +2,10 @@ const express = require("express");
 
 const router = express.Router();
 
-// Read All()
+// Read All(katagori)
 
 router.get("/", async (req, res) => {
-  res.send("product getirilme !");
+  res.send("katagori getirildi !");
 });
 
 module.exports = router;

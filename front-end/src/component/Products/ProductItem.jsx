@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import './ProductItem.css'
 import PropTypes from 'prop-types'
-import { CartContext } from '../../context/CardProvider'
+import { CartContext } from '../../Context/CardProvider'
 const ProductItem = ({ productItem }) => {
     const { cartItem, addToCart } = useContext(CartContext)
     const filteredCart = cartItem.find((cartItem) => cartItem.id === productItem.id)

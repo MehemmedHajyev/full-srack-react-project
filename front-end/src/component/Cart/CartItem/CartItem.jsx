@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import PropTypes from 'prop-types'
-import { CartContext } from '../../../context/CardProvider';
+import { CartContext } from '../../../Context/CardProvider';
 
 
 const CartItem = ({ cartItem }) => {

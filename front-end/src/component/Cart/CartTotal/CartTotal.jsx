@@ -1,5 +1,5 @@
 import { useContext, useState } from "react"
-import { CartContext } from "../../../context/CardProvider"
+import { CartContext } from "../../../Context/CardProvider"
 
 const CartTotal = () => {
     const [fastCargoCheckt, setFastCargoCheckt] = useState(false)
