@@ -10,6 +10,9 @@ const connect = async () => {
     await mongoose.connect(process.env.MONGO_URL);
   } catch (error) {}
 };
+// middlewares
+
+app.use(express.json());
 
 app.use("/api", mainRoute);
 

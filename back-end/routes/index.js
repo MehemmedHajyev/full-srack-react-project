@@ -4,7 +4,7 @@ const router = express.Router();
 
 // Diğer rota dosyalarını içe aktarıyoruz
 const productRoute = require("./ProductsApi/products"); 
-const categoryRoute = require("./category/category");
+const categoryRoute = require("./category/categories");
 
 // Her rotayı ilgili yol altında kullanıyoruz
 router.use("/category", categoryRoute); 
