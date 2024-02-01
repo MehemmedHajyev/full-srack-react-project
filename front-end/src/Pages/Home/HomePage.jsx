@@ -10,9 +10,9 @@ const HomePage = () => {
     return (
         <>
             <Slider />
+            <Products />
             <Catagories />
             <Campaigns />
-            <Products />
             <HomeinBLogs />
             <Brands />
             <CompaingSingle />

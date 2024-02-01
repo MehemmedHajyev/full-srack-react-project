@@ -1,11 +1,12 @@
 import './HomeBlogItem.css'
 
-const HoneinBlogItem = () => {
+const HoneinBlogItem = ({item}) => {
+    console.log(item);
     return (
         <>
             <li className="blog-item">
                 <a href="#" className="blog-image">
-                    <img src="img/blogs/blog1.jpg" alt="" />
+                    <img src={item.img.thumbs[2]} alt="" />
                 </a>
                 <div className="blog-info">
                     <div className="blog-info-top">

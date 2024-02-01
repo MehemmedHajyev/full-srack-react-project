@@ -1,11 +1,11 @@
 import './CategoriesItem.css'
-const CategoriesItem = () => {
+const CategoriesItem = ({ item}) => {
   return (
     <>
       <li className="category-item">
         <a href="#">
-          <img src="img/categories/categories1.png" alt="" className="category-image" />
-          <span className="category-title">Smartphone</span>
+          <img src={item.img.singleImage} alt={item.name} className="category-image" />
+          <span className="category-title">{item.name}</span>
         </a>
       </li>
     </>

@@ -14,9 +14,16 @@ const Header = ({ setIsSearchShow }) => {
         <div className="global-notification">
           <div className="container">
             <p>
-              SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL DELIVERY
-              - OFF 50%!
-              <a href="shop.html">SHOP NOW</a>
+              <marquee style={{
+                width: "700px",
+                behavior: "scroll", 
+                direction: "left"  ,
+                cursor:"pointer" 
+              }}>
+                SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL DELIVERY - OFF 50%!
+                <a href="shop.html">SHOP NOW</a>
+              </marquee>
+
             </p>
           </div>
         </div>
@@ -174,10 +181,10 @@ const Header = ({ setIsSearchShow }) => {
                       <i className="bi bi-chevron-down"></i>
                     </Link>
                     <li className="menu-list-item">
-                    <Link to={'/contact'} className={`menu-link ${pathname === "/contact" && "active"}`}>
-                      Contact
-                      <i className="bi bi-chevron-down"></i>
-                    </Link>
+                      <Link to={'/contact'} className={`menu-link ${pathname === "/contact" && "active"}`}>
+                        Contact
+                        <i className="bi bi-chevron-down"></i>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

@@ -35,6 +35,7 @@
   .campaign-single .campaign-wrapper > a {
     background-color: #fff;
     margin-top: 60px;
+    border-radius: 6px;
   }
   
   .campaign-single .campaign-wrapper > a:hover {
@@ -42,4 +43,6 @@
     border-color: #1367ef;
     color: #fff;
   }
+  
+
   

@@ -1,5 +1,6 @@
 import HoneinBlogItem from "./HoneinBlogItem"
 import './HomeBlogs.css'
+import api from '../../data.json'
 
 const HomeinBLogs = () => {
     return (
@@ -11,9 +12,12 @@ const HomeinBLogs = () => {
                     <p>Summer Collection New Morden Design</p>
                 </div>
                 <ul className="blog-list">
-                    <HoneinBlogItem />
-                    <HoneinBlogItem />
-                    <HoneinBlogItem />
+                    {
+                        api.map((item, index) => (
+                            <HoneinBlogItem key={index} item={item} /* diğer props larınızı buraya ekleyin */ />
+                        ))
+                    }
+
                 </ul>
             </div>
         </section>)

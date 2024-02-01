@@ -46,7 +46,7 @@ const ProductItem = ({ productItem }) => {
                     <span className="product-discount">-{productItem.discount}%</span>
                     <div className="product-links">
                         <button className="add-to-cart" data-id="1" onClick={() => addToCart(productItem)}
-                        disabled={filteredCart}
+                            disabled={filteredCart}
                         >
                             <i className="bi bi-basket-fill"></i>
                         </button>

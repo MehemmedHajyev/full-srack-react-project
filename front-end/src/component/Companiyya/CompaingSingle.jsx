@@ -6,7 +6,12 @@ const CampaignSingle = () => {
       <div className="container">
         <div className="campaign-wrapper">
           <h2></h2>
-          <strong>40% OFF</strong>
+
+          <strong>
+
+            40% OFF
+            </strong>
+
           <span></span>
           <a href="#" className="btn btn-lg">
             SHOP NOW

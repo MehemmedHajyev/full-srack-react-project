@@ -19,6 +19,7 @@ function App() {
       <Route path='/contact' element={< ContactPage />} />
       <Route path='/cart' element={< CardPage />} />
       <Route path='/auth' element={< AuthPage />} />
+      <Route path='/product/details' element={< ProductDetailsPage />} />
       <Route path='/product/:id' element={< ProductDetailsPage />} />
       <Route path='/blog/:id' element={< BlogDetailsPage />} />
     </Routes>

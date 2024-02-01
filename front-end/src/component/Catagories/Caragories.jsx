@@ -1,4 +1,5 @@
 import CategoriesItem from './CategoriesItem'
+import  api  from'./../../data.json'
 import './Caragories.css'
 const Caragories = () => {
   return (
@@ -10,12 +11,12 @@ const Caragories = () => {
             <p>Summer Collection New Morden Design</p>
           </div>
           <ul className="category-list">
-            <CategoriesItem />
-            <CategoriesItem />
-            <CategoriesItem />
-            <CategoriesItem />
-            <CategoriesItem />
-            <CategoriesItem />
+
+            {
+              api.map((item, index) => (
+                <CategoriesItem key={index} item={item}/>
+              ))
+            }
 
           </ul>
         </div>

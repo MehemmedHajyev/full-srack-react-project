@@ -5,6 +5,7 @@ const app = express();
 const mainRoute = require("./routes/index");
 const port = 5000;
 dotenv.config();
+
 const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URL);

@@ -4,6 +4,7 @@ import Search from "../Modals/Search/Search"
 import Header from "../Header/Header"
 import { Footer } from "../Footer/Footer"
 import Dialog from "../Modals/Dialog/Dialog"
+import './main-layout-scroll.css'
 const Layout = (props) => {
     const [isSearchShow, setIsSearchShow] = useState(false)
     const [isDealogShow, setIsDealogShow] = useState(false)

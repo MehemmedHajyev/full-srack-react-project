@@ -1,4 +1,5 @@
 import './CampaignsItem.css'
+import api from '../../data.json'
 const CampaignsItem = () => {
     return (
         <div className="campaign-item">
